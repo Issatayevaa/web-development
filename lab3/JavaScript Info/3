@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            let admin;
+            let name;
+            name = "John";
+            admin = name;
+            alert(admin);
+        </script>
+
+    </body>
+</html>
