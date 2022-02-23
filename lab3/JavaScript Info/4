@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            let earth;
+            let currentName;
+        </script>    
+
+    </body>
+</html>
