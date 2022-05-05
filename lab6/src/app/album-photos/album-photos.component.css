@@ -1,0 +1,25 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+#ret {
+  margin-top: 50px;
+}
+
+.p150 {
+  height: 150px;
+  width: 150px;
+}
+
+.p600 {
+  height: 600px;
+  width: 600px;
+}
+
+.descr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: large;
+  color: cornflowerblue;
+}

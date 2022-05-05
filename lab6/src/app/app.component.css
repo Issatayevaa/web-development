@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+a {
+  color: black;
+  background-color: cyan;
+  margin-left: 14%;
+  width: 120px;
+  height: 24px;
+  border: 20px solid cyan;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+}

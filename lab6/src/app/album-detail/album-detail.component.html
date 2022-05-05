@@ -1,0 +1,13 @@
+<div>
+  <button id="ret" (click)="returnBack()" class="back-button">Return back</button>
+
+  <div *ngIf="loaded">
+    <h1 class="album-id">Album details, id: {{ album.id }}</h1>
+    <h1>Name: {{ album.title }}</h1>
+    <fieldset>
+      <input class="add" type="text" [(ngModel)]="album.title" />
+      <button class="add" (click)="updateAlbum()">Save</button>
+    </fieldset>
+    <div class="a"><a routerLink="/albums/{{ album.id }}/photos">show pictures</a></div>
+  </div>
+</div>

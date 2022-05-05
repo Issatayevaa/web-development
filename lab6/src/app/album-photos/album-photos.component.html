@@ -1,0 +1,15 @@
+<div>
+  <button id="ret" (click)="returnBack()">Return back</button>
+
+  <div *ngIf="loaded">
+    <h1>Album {{album.id}}</h1>
+    <div *ngIf="photos.length">
+      <div *ngFor="let photo of photos">
+        <div class="descr">id: {{photo.id}}</div>
+        <div class="descr">title: {{photo.title}}</div>
+        <img class="p150" src="{{photo.thumbnailUrl}}">
+        <img class="p600" src="{{photo.url}}">
+      </div>
+    </div>
+  </div>
+</div>

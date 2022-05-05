@@ -1,0 +1,32 @@
+#ret {
+  margin-top: 50px;
+}
+
+fieldset {
+  text-align: center;
+  background-color: bisque;
+  border: 0px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(251, 104, 226);
+  border: 20px solid rgb(251, 104, 226);
+  font-size: large;
+  margin-left: 20px;
+}
+
+.a {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.add {
+  font-size: large;
+}
